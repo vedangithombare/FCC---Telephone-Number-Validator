@@ -1,0 +1,89 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin: 0;
+  /* background-color: #7986cb; */
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 4%;
+  /* background-color: aquamarine; */
+  width: 50%;
+  gap: 24px;
+}
+.mainContainer h3 {
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.checkDiv {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 240px;
+  background-color: #7986cb;
+  gap: 20px;
+  padding: 30px;
+}
+.checkDiv label {
+  font-size: 1.5em;
+  font-weight: 700;
+  font-family: monospace;
+}
+.checkDiv input {
+  border: none;
+  width: 45%;
+  height: 88px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.btnsDiv {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+.btnsDiv button {
+  width: 30%;
+  height: 74%;
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.results-div {
+  width: 100%;
+  height: 190px;
+  background-color: #b8b8cf;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-size: 2em;
+  font-weight: 500;
+  font-family: monospace;
+  padding: 50px;
+}
+.checkDiv,
+.results-div {
+  border-radius: 14px;
+}
+
+@media (max-width: 950px) {
+  body {
+    font-size: 0.7em;
+  }
+}
